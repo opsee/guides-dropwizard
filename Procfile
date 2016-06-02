@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -Ddw.server.adminConnectors.port=$PORT -jar target/dropwizard-example-1.0-SNAPSHOT.jar server
+web: java $JAVA_OPTS -Ddw.server.adminConnectors[0].port=$PORT -jar target/dropwizard-example-1.0-SNAPSHOT.jar server
